@@ -32,7 +32,7 @@ module Emacs.Module.Monad
 
 import qualified Control.Exception as Exception
 import qualified Control.Monad.Catch as Catch
-import Control.Exception.Safe.Checked (MonadThrow, Throws)
+import Control.Exception.Safe.Checked (Throws)
 import qualified Control.Exception.Safe.Checked as Checked
 import Control.Monad.Base
 import Control.Monad.Except

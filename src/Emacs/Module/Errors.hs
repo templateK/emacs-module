@@ -49,7 +49,6 @@ import Data.Void.Unsafe
 import Foreign.C.String
 import Foreign.Marshal.Array
 import GHC.Stack (CallStack, callStack, prettyCallStack)
-import Text.Show (showString)
 
 import qualified Data.Emacs.Module.Env as Raw
 import Data.Emacs.Module.NonNullPtr
